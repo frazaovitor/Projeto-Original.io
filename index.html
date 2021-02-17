@@ -8,6 +8,7 @@
 
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
 
     <!-- Ícones -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
@@ -28,7 +29,7 @@
     <!-- Navegação, busca e carrinho -->
 
     <nav>
-        <div class="container">
+        <div class="container1">
             <div class="cadastro">
                 <ul>
                     <li><a href="#">Entrar</a></li>
@@ -64,8 +65,8 @@
 
     <!-- Diretório de navegação atual -->
 
-    <div class="diretorio">
-        <div class="container2">
+    <div class="container2">
+        <div class="diretorio">
             <p>Home</p>
             <p>/</p>
             <p>Sapatos</p>
@@ -73,35 +74,192 @@
     </div>
 
     <!-- Conteúdo principal -->
+    <!-- Carousel + vídeo lado esquerdo -->
 
     <div class="container3">
-        <div class="lateralEsquerda">
-            <div class="video">
-                <iframe src="https://www.youtube.com/embed/B4zsYowF-fM?start=222" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+        <div class="Container-Carousel">
+            <div class="carousel">
 
+                <!-- Vídeo  -->
+                <div class="video">
+                    <p>Vídeo</p>
+                    <iframe src="https://www.youtube.com/embed/B4zsYowF-fM?start=222" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
 
+                <!-- Carousel miniatura -->
+
+                <span class="nav-cima"><i class="fas fa-angle-up fa-2x"></i></span>
+                <div class="carouselP">
+                    <div class="item"><img src="img/prod01.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod01.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod01.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod01.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod01.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod01.png" alt="produtos"></div>
+                </div>
+                <span class="nav-baixo"><i class="fas fa-angle-down fa-2x"></i></span>
             </div>
 
+            <!-- Carousel maior -->
+
+            <div class="principal">
+                <div class="carouselG">
+                    <div class="item"><img src="img/prod02.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod02.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod02.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod02.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod02.png" alt="produtos"></div>
+                    <div class="item"><img src="img/prod02.png" alt="produtos"></div>
+                </div>
+
+                <!-- Detalhes do produto -->
+
+                <div class="container4">
+                    <div class="tituloDescricao">
+                        <h2>RASTEIRA TIRA DEDO</h2>
+                        <p class="codigo">RT 0568 | 03.07.0653</p>
+                    </div>
+
+                    <div class="valorDescricao">
+                        <div class="valor">
+                            <p class="codigo preco">R$ 69,00</p>
+                            <p class="marginRight separador">|</p>
+                            <p class="fontG">R$ 55,20</p>
+                        </div>
+                        <p class="fontS parcela">ou 6x de R$ 9,20</p>
+                    </div>
+
+                    <div class="coresDescricao">
+                        <div class="nomeCores">
+                            <p class="fontM corDesc marginRight">Cor:</p>
+                            <p class="fontM corEscolhida">(Fucsia)</p>
+                        </div>
+
+                        <div class="cores">
+                            <div class="cor cor1"></div>
+                            <div class="cor cor2"></div>
+                            <div class="cor cor3"></div>
+                            <div class="cor cor4"></div>
+                        </div>
+                    </div>
+
+                    <div class="tamanhoDescricao">
+                        <div class="tamanhoMedida">
+                            <div class="escolhaTamanho marginRight">
+                                <p class="fontM marginRight">Tamanho:</p>
+                                <p class="fontM corEscolhida">(37)</p>
+                            </div>
+                            <div class="medida">
+                                <p class="fontM">Guia de medidas</p>
+                            </div>
+                        </div>
+
+                        <div class="tamanhos">
+                            <div class="tamanho1 borda">
+                                <p>33</p>
+                            </div>
+                            <div class="tamanho2 borda">
+                                <p>34</p>
+                            </div>
+                            <div class="tamanho3 borda">
+                                <p>35</p>
+                            </div>
+                            <div class="tamanho4 borda">
+                                <p>36</p>
+                            </div>
+                            <div class="tamanho5 borda">
+                                <p>37</p>
+                            </div>
+                            <div class="tamanho6 borda">
+                                <p>38</p>
+                            </div>
+                            <div class="tamanho7 borda">
+                                <p>39</p>
+                            </div>
+                            <div class="tamanho8 borda">
+                                <p>40</p>
+                            </div>
+                            <div class="tamanho9 borda">
+                                <p>41</p>
+                            </div>
+                            <div class="tamanho10 borda">
+                                <p>42</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="botaoDescricao">
+                        <button class="botaoSacola" type="submit">ADICIONAR À SACOLA</button>
+                        <p class="fontM detalhesBotton">Rasteira em atanado soft com tira no dedo e fechamento de
+                            fivela. Possui sola
+                            sempre na cor
+                            do cabedal.</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
-    <div class="principal"></div>
-    <div class="detalhesEVenda"></div>
 
-
-
+    <!-- Carousel de ofertas mais vistas -->
+    <div class="quemViu">
+        <h2>QUEM VIU, VIU TAMBÉM</h2>
+    </div>
+    <div class="carouselOfertas">
+        <div><img src="img/oferta01.png" alt=""></div>
+        <div><img src="img/oferta02.png" alt=""></div>
+        <div><img src="img/oferta03.png" alt=""></div>
+        <div><img src="img/oferta04.png" alt=""></div>
+        <div><img src="img/oferta01.png" alt=""></div>
+        <div><img src="img/oferta02.png" alt=""></div>
+        <div><img src="img/oferta03.png" alt=""></div>
+        <div><img src="img/oferta04.png" alt=""></div>
+    </div>
+    <div class="ofertasSetas">
+        <span class="oferta-esq"><i class="far fa-caret-square-left fa-2x"></i></span>
+        <span class="oferta-dir"><i class="far fa-caret-square-right fa-2x"></i></span>
     </div>
 
-    <div class="carousel">
-        <div><img src="img/prod01.png" alt=""></div>
-        <div><img src="img/prod01.png" alt=""></div>
-        <div><img src="img/prod01.png" alt=""></div>
-        <div><img src="img/prod01.png" alt=""></div>
-        <div><img src="img/prod01.png" alt=""></div>
-        <div><img src="img/prod01.png" alt=""></div>
-    </div>
+    <footer>
+        <div class="contato">
+            <div class="containerAssine">
+                <p>ASSINE NOSSAS NEWS</p>
+                <div class="nome">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" placeholder="Renata">
+                </div>
+                <input type="text" placeholder="E-mail">
+                <button class="fontM" type="submit">ENVIAR</button>
+            </div>
+        </div>
+        
+        <div class="patrocinio">
+            <div class="redeSocial">
+                <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="#"> <i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"> <i class="fab fa-pinterest fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="rodape"></div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
